@@ -1,0 +1,957 @@
+          v         time
+0 -0.003906  2529.001000
+1 -0.019073  2529.001005
+2 -0.003906  2529.001010
+3 -0.007355  2529.001015
+4 -0.007812  2529.001020
+Trans IDs :  [[217055747]
+ [418383107]
+ [201326595]
+ [419362819]
+ [417988611]
+ [419351043]]
+     timestamp         id    pgn    ...     databyte6  databyte7  databyte8
+0     2529.001  217055747  61442    ...           190         23        255
+11    2529.001  418381840  61440    ...           125          0        125
+24    2529.006  217056256  61444    ...           255        255        133
+32    2529.006  217056000  61443    ...           255        255        255
+46    2529.007  418381865  61440    ...           255        255        255
+59    2529.007  419356672  65248    ...           252          0          0
+61    2529.008  419361280  65266    ...             1        255        255
+66    2529.009  419361024  65265    ...             0         31        255
+86    2529.009  419360768  65264    ...             0          0        255
+100   2529.011  217055747  61442    ...           190         23        255
+
+[10 rows x 11 columns]
+Traceback (most recent call last):
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints_trans.py", line 98, in <module>
+    if can_id in mapper.get('engine'):
+TypeError: argument of type 'NoneType' is not iterable
+          v         time
+0 -0.003906  2529.001000
+1 -0.019073  2529.001005
+2 -0.003906  2529.001010
+3 -0.007355  2529.001015
+4 -0.007812  2529.001020
+ABS IDs :  [[419348235]
+ [201326603]
+ [418382091]]
+     timestamp         id    pgn    ...     databyte6  databyte7  databyte8
+0     2529.001  217055747  61442    ...           190         23        255
+11    2529.001  418381840  61440    ...           125          0        125
+24    2529.006  217056256  61444    ...           255        255        133
+32    2529.006  217056000  61443    ...           255        255        255
+46    2529.007  418381865  61440    ...           255        255        255
+59    2529.007  419356672  65248    ...           252          0          0
+61    2529.008  419361280  65266    ...             1        255        255
+66    2529.009  419361024  65265    ...             0         31        255
+86    2529.009  419360768  65264    ...             0          0        255
+100   2529.011  217055747  61442    ...           190         23        255
+
+[10 rows x 11 columns]
+Traceback (most recent call last):
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints_abs.py", line 81, in <module>
+    can_indices = np.hstack([can_engine, can_trans, can_abs])
+NameError: name 'can_engine' is not defined
+          v         time
+0 -0.003906  2529.001000
+1 -0.019073  2529.001005
+2 -0.003906  2529.001010
+3 -0.007355  2529.001015
+4 -0.007812  2529.001020
+ABS IDs :  [[419348235]
+ [201326603]
+ [418382091]]
+     timestamp         id    pgn    ...     databyte6  databyte7  databyte8
+0     2529.001  217055747  61442    ...           190         23        255
+11    2529.001  418381840  61440    ...           125          0        125
+24    2529.006  217056256  61444    ...           255        255        133
+32    2529.006  217056000  61443    ...           255        255        255
+46    2529.007  418381865  61440    ...           255        255        255
+59    2529.007  419356672  65248    ...           252          0          0
+61    2529.008  419361280  65266    ...             1        255        255
+66    2529.009  419361024  65265    ...             0         31        255
+86    2529.009  419360768  65264    ...             0          0        255
+100   2529.011  217055747  61442    ...           190         23        255
+
+[10 rows x 11 columns]
+Traceback (most recent call last):
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints_abs.py", line 98, in <module>
+    if can_id in mapper.get('engine'):
+TypeError: argument of type 'NoneType' is not iterable
+          v         time
+0 -0.003906  2529.001000
+1 -0.019073  2529.001005
+2 -0.003906  2529.001010
+3 -0.007355  2529.001015
+4 -0.007812  2529.001020
+ABS IDs :  [[419348235]
+ [201326603]
+ [418382091]]
+     timestamp         id    pgn    ...     databyte6  databyte7  databyte8
+0     2529.001  217055747  61442    ...           190         23        255
+11    2529.001  418381840  61440    ...           125          0        125
+24    2529.006  217056256  61444    ...           255        255        133
+32    2529.006  217056000  61443    ...           255        255        255
+46    2529.007  418381865  61440    ...           255        255        255
+59    2529.007  419356672  65248    ...           252          0          0
+61    2529.008  419361280  65266    ...             1        255        255
+66    2529.009  419361024  65265    ...             0         31        255
+86    2529.009  419360768  65264    ...             0          0        255
+100   2529.011  217055747  61442    ...           190         23        255
+
+[10 rows x 11 columns]
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to           v         time
+0 -0.021484  2529.001000
+1 -0.037628  2529.001005
+2 -0.019531  2529.001010
+3 -0.022980  2529.001015
+4 -0.031281  2529.001020
+ABS IDs :  [[419348235]
+ [201326603]
+ [418382091]]
+     timestamp         id    pgn    ...     databyte6  databyte7  databyte8
+0     2529.001  217055747  61442    ...           190         23        255
+11    2529.001  418381840  61440    ...           125          0        125
+24    2529.006  217056256  61444    ...           255        255        133
+32    2529.006  217056000  61443    ...           255        255        255
+46    2529.007  418381865  61440    ...           255        255        255
+59    2529.007  419356672  65248    ...           252          0          0
+61    2529.008  419361280  65266    ...             1        255        255
+66    2529.009  419361024  65265    ...             0         31        255
+86    2529.009  419360768  65264    ...             0          0        255
+100   2529.011  217055747  61442    ...           190         23        255
+
+[10 rows x 11 columns]
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to           v         time
+0 -0.021484  2529.001000
+1 -0.037628  2529.001005
+2 -0.019531  2529.001010
+3 -0.022980  2529.001015
+4 -0.031281  2529.001020
+Trans IDs :  [[217055747]
+ [418383107]
+ [201326595]
+ [419362819]
+ [417988611]
+ [419351043]]
+     timestamp         id    pgn    ...     databyte6  databyte7  databyte8
+0     2529.001  217055747  61442    ...           190         23        255
+11    2529.001  418381840  61440    ...           125          0        125
+24    2529.006  217056256  61444    ...           255        255        133
+32    2529.006  217056000  61443    ...           255        255        255
+46    2529.007  418381865  61440    ...           255        255        255
+59    2529.007  419356672  65248    ...           252          0          0
+61    2529.008  419361280  65266    ...             1        255        255
+66    2529.009  419361024  65265    ...             0         31        255
+86    2529.009  419360768  65264    ...             0          0        255
+100   2529.011  217055747  61442    ...           190         23        255
+
+[10 rows x 11 columns]
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to            v         time
+0 -0.003906  2529.001000
+1 -0.019073  2529.001005
+2 -0.003906  2529.001010
+3 -0.007355  2529.001015
+4 -0.007812  2529.001020
+Trans IDs :  [[217055747]
+ [418383107]
+ [201326595]
+ [419362819]
+ [417988611]
+ [419351043]]
+     timestamp         id    pgn    ...     databyte6  databyte7  databyte8
+0     2529.001  217055747  61442    ...           190         23        255
+11    2529.001  418381840  61440    ...           125          0        125
+24    2529.006  217056256  61444    ...           255        255        133
+32    2529.006  217056000  61443    ...           255        255        255
+46    2529.007  418381865  61440    ...           255        255        255
+59    2529.007  419356672  65248    ...           252          0          0
+61    2529.008  419361280  65266    ...             1        255        255
+66    2529.009  419361024  65265    ...             0         31        255
+86    2529.009  419360768  65264    ...             0          0        255
+100   2529.011  217055747  61442    ...           190         23        255
+
+[10 rows x 11 columns]
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to   fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+ fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+Written Fingerprint-ID samples to  fingerprints
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints_trans.py", line 12
+    ecus = ['engine':'atvp2', 'trans':'atvp3', 'abs':'atvp4']
+                    ^
+SyntaxError: invalid syntax
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints_trans.py", line 12
+    ecus = ['engine':'atvp2', 'trans':'atvp3', 'abs':'atvp4']
+                    ^
+SyntaxError: invalid syntax
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints_engine.py", line 13
+    can_names = ['engine':'Engine #1', 'trans':'Transmission #1', 'abs':'Brakes - System Controller']
+                         ^
+SyntaxError: invalid syntax
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints.py", line 13
+    can_names = ['engine':'Engine #1', 'trans':'Transmission #1', 'abs':'Brakes - System Controller']
+                         ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints.py", line 22, in <module>
+    power = pd.DataFrame(np.load((direc + 'normalized_signals/'+ '-'.join(['normalized', timestamp, ecus.get(ecu), channel]) + ".npy")))
+NameError: name 'ecu' is not defined
+Traceback (most recent call last):
+  File "/home/s7thakur/CANMAP-dave/generate_fingerprints.py", line 22, in <module>
+    power = pd.DataFrame(np.load((direc + 'normalized_signals/'+ '-'.join(['normalized', timestamp, ecus.get(ecu), channel]) + ".npy")))
+NameError: name 'ecu' is not defined
